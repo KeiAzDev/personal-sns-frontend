@@ -49,4 +49,40 @@
 
 .topbarRight {
   flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.topbarItemIcons {
+  display: flex;
+}
+
+.topbarIconItem {
+  margin-right: 15px;
+  position: relative;
+  margin-top: 5px;
+}
+
+.topbarIconBadge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #db6ab9;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.topbarImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
 }
