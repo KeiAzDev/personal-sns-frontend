@@ -45,6 +45,14 @@ export default function Rightbar({ profile }) {
               <img src="assets/person/1.jpeg" alt="" className="rightbarFollowingImg" />
               <span className="rightbarFollowingName">shin</span>
             </div>
+            <div className="rightbarFollowing">
+              <img src="assets/person/2.jpeg" alt="" className="rightbarFollowingImg" />
+              <span className="rightbarFollowingName">shin</span>
+            </div>
+            <div className="rightbarFollowing">
+              <img src="assets/person/4.jpeg" alt="" className="rightbarFollowingImg" />
+              <span className="rightbarFollowingName">shin</span>
+            </div>
           </div>
         </div>
       </>
